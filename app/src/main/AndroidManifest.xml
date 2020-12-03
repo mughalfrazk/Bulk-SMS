@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.globaladvice.xlsBulk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="q">
+        <activity android:name="com.globaladvice.xlsBulk.Settings"
+            android:label="App Settings"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name="com.globaladvice.xlsBulk.TabbedSignUp"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.globaladvice.xlsBulk.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.globaladvice.xlsBulk.Dashboard" />
+        <activity
+            android:name="com.globaladvice.xlsBulk.XLSSend"
+            android:label="Attach XLS"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name="com.globaladvice.xlsBulk.PCConnect"
+            android:label="Connect to PC"
+            android:theme="@style/AppTheme2" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "368977651996",
+    "firebase_url": "https://xlssms-6788c.firebaseio.com",
+    "project_id": "xlssms-6788c",
+    "storage_bucket": "xlssms-6788c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368977651996:android:cdb1fb5ab1ce138120f2d9",
+        "android_client_info": {
+          "package_name": "com.globaladvice.xlsBulk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368977651996-nf834d5c2u8c5ti2en4psrts59bftq7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwBqItqAwMuruwVb7cFxIupyuWSa_ChWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368977651996-nf834d5c2u8c5ti2en4psrts59bftq7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
